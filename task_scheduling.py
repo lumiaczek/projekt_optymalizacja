@@ -19,6 +19,6 @@ def task_scheduling_greedy(filepath):
 
 
 if __name__ == "__main__":
-    task_scheduling_greedy("./adam/random_instance2.txt")
+    task_scheduling_greedy("./instancje/m10n200.txt")
 
-    
+

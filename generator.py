@@ -5,7 +5,7 @@ num_tasks = int(input("Podaj liczbę zadań: "))
 task_time_min = int(input("Podaj minimalny czas trwania zadania: "))
 task_time_max = int(input("Podaj maksymalny czas trwania zadania: "))
 
-with open("generated.txt", "w") as file:
+with open("./instancje/generated.txt", "w") as file:
     file.writelines(f"{str(num_processors)}\n{str(num_tasks)}\n")
 
     for i in range(num_tasks):
